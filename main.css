@@ -3,13 +3,17 @@ body {
 }
 
 header {
-    font-family: 'Boogaloo', cursive;
-    text-transform: uppercase;
+    font-family: 'Oleo Script', cursive;
+    font-size: 4em;
 }
 
-nav {
-    font-family: 'Roboto', sans-serif;
+
+
+h2 {
+    font-family: 'Oleo Script', cursive;
 }
+
+/* Nav */
 
 #nav-header {
     background-image: linear-gradient(to bottom right, steelblue, rgb(246, 45, 81));
@@ -23,6 +27,31 @@ nav {
 .nav-wrapper {
     height: 400px;
 }
+
+nav ul {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    font-size: 4em;
+}
+
+/* Index Page */
+
+.front-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20%;
+}
+
+#try-link {
+    font-family: 'Oleo Script', cursive;
+    width: 40%;
+}
+
+/* About */
 
 .team-image {
     border-radius: 50%;
@@ -56,6 +85,8 @@ nav {
     height: 50px;
     padding-top: 10px;
 }
+
+/* Footer */
 
 #footer {
     background-image: linear-gradient(to top left, steelblue, rgb(246, 45, 81));
