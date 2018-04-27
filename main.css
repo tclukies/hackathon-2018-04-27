@@ -137,3 +137,7 @@ nav ul {
     background-image: linear-gradient(to top left, steelblue, rgb(246, 45, 81));
     height: 10vh;
 }
+#moodImg {
+    width: 500px;
+    height: auto;
+}
