@@ -21,6 +21,8 @@ const moods = [
   "Confused"
 ];
 
+var mood = "";
+
 function createButtons() {
   for (i = 0; i < moods.length; i++) {
     var button = document.createElement("a");
@@ -41,6 +43,7 @@ function changeMood() {
 
 function accessApi() {
   if (mood == "Happy") {
+    console.log('this works')
     return fetch(`https://www.reddit.com/r/${Happy[randomInt(2)]}.json`)
       .then(response => response.json())
       .then(response => response.data.children)
@@ -90,7 +93,6 @@ function addImage(data) {
   } else {
     var img = document.getElementById("moodImg");
     img.src = "";
-    console.log(data);
     img.src = imageNumber.images[0].source.url;
   }
 }
