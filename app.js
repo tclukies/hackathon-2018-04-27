@@ -25,8 +25,8 @@ var mood = "";
 
 function createButtons() {
   for (i = 0; i < moods.length; i++) {
-    var button = document.createElement("a");
-    button.classList.add("waves-effect", "waves-light", "btn-large");
+    var button = document.createElement("button");
+    button.classList.add("buttons");
     document.getElementById("myMood").appendChild(button);
     button.innerText = moods[i];
     button.id = i;
