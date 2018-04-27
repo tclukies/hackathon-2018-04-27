@@ -163,7 +163,7 @@ nav ul {
 }
 
 #fun-header {
-    background-image: linear-gradient(to top left, steelblue, rgb(246, 45, 81));
+    background-image: linear-gradient(to bottom right, steelblue, rgb(246, 45, 81));
     height: 15vh;
 }
 
@@ -186,9 +186,7 @@ nav ul {
     font-size: 1em;
     background-color: #26a69a;
     text-decoration:none;
-    text-transform: uppercase;
     color: white;
-    font-weight: 100;
 }
 
 /* Footer */
